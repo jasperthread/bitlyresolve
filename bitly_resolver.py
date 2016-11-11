@@ -2,6 +2,7 @@ import requests
 
 thegoods = []
 
+# bitlys.txt is a list of shortened urls.
 with open('bitlys.txt') as file:
     for line in file:
         try:
